@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Aventa-Bold';
+    src: url('/fonts/Aventa-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/fonts/Gilroy-Regular.ttf') format('truetype');
+}
+
+
+.Asection3 {
+    display: none;
+}
+
+@media screen and (max-width:1200px) {
+    .Asection3 {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        place-items: center;
+    }
+
+    .wrapper {
+        width: 100%;
+        height: 90%;
+        background-color: #1C1C1C;
+        border-radius: 30px;
+        padding: 3%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .h {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #F2F2F2;
+    }
+
+    .h h1 {
+        font-family: 'Aventa-Bold';
+        font-size: 2.5rem;
+    }
+
+    .h p {
+        font-family: 'Aventa-Bold';
+        font-size: 1.5rem;
+    }
+
+    .h span {
+        color: #FF8E8E;
+    }
+
+    .new {
+        display: flex;
+        height: 100%;
+        margin-top: 2rem;
+        gap: 1rem;
+    }
+
+    .wrap {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        gap: 1.3rem;
+    }
+
+    .heading {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.3rem;
+    }
+
+    .heading1 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.3rem;
+    }
+
+    .heading1 p {
+        font-size: 1rem;
+        font-family: 'Gilroy';
+        color: #FEFDFE;
+        text-align: center;
+    }
+
+    .heading p {
+        font-size: 1rem;
+        font-family: 'Gilroy';
+        color: #FEFDFE;
+        text-align: center;
+    }
+
+    .block1 {
+        display: flex;
+        background-color: #D9D9D9;
+        width: 100%;
+        height: 100%;
+        margin-top: 1rem;
+    }
+
+    .svg {
+        width: 36px;
+        height: 52px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .h p {
+        font-family: 'Aventa-Bold';
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+@media screen and (max-width:500px){
+    .new{
+        flex-direction: column;
+    }
+    .wrap{
+        width: 100%;
+    }
+    .heading{
+        gap: 0.5rem;
+    }
+    .heading1{
+        gap: 0.5rem;
+    }
+    .h h1 {
+        font-family: 'Aventa-Bold';
+        font-size: 2rem;
+    }
+
+    .h p {
+        font-family: 'Aventa-Bold';
+        font-size: 1rem;
+    }
+    .wrapper{
+        padding: 5%;
+    }
+}

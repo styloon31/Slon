@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@font-face {
+    font-family: 'Larken-black';
+    src: url('/fonts/LarkenDEMO-Black.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Larken-medium';
+    src: url('/fonts/LarkenDEMO-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Larken-regular';
+    src: url('/fonts/LarkenDEMO-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Larken-extrabold';
+    src: url('/fonts/LarkenDEMO-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'rogue';
+    src: url('/fonts/Rogue Sans BoldItalic.ttf') format('truetype');
+}
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to right, #00070E, #002245 63%, #0052A5);
+    position: relative;
+    color: white;
+    padding-bottom: 0.5%;
+}
+.f_sec1{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+}
+.f_contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 40px;
+    border-left: 2px dashed white;
+    border-right: 2px dashed white;
+    height: fit-content;
+
+}
+.f_email{
+    display: flex;
+    place-items: center;
+    gap: 10px;
+    font-family: 'Larken-medium';
+    font-size: 1.25rem;
+}
+.f_email_wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.c_h2{
+    font-family: 'Larken-black';
+    font-size: 1.563rem;
+}
+.h_nav{
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+.h_services{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.h_services h1{
+    font-family: 'Larken-extrabold';
+    text-align: right;
+    font-size: 2.75rem;
+}
+.f_social{
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+}
+.policies{
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+    gap: 20px;
+    padding: 12px 0;
+    border-bottom: 1px solid white;
+}
+.bitstobug{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    margin-top: 35px;
+    gap: 12px;
+}
+.bitstobug p{
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+.BITSTOBUG{
+    font-family: 'rogue';
+    margin-left: 7px;
+}
+@media screen and (max-width:1500px){
+    .h_services h1{
+        text-align: right;
+        font-size: 2.1rem;
+    }
+    .h_nav{
+        font-size: 1.2rem;
+    }
+    .c_h2{
+        font-size: 1.4rem;
+    }
+    .f_email{
+        font-size: 1.1rem;
+    }
+    .policies{
+        font-size: 1.25rem;
+    }
+    .bitstobug p{
+        font-size: 1.25rem;
+    }
+}
+@media screen and (max-width:1200px){
+    .footer1{
+        background-image: linear-gradient(to bottom, #00070E, #002245 63%, #0052A5);
+    }
+    .f_sec1{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: left;
+        color: white;
+    }
+    .f_contact{
+        border-bottom: 2px dashed white;
+        border-top: 2px dashed white;
+        border-left: 0;
+        border-right: 0;
+        padding: 40px 0;
+    }
+    .h_services h1{
+        display: none;
+    }
+    .h_nav{
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 40px;
+    }
+    .f_social{
+        justify-content: left;
+    }
+    .policies{
+        display: none;
+    }
+    .h_services{
+        gap: 20px;
+    }
+    .bitstobug{
+        border-top: 1px solid white;
+    }
+    .bitstobug p{
+        font-size: 1rem;
+        margin-top: 1%;
+        text-align: center;
+    }
+    .logo{
+        height: 120px;
+        width: 180px;
+    }
+}

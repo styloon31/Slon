@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Aventa-Extrabold';
+    src: url('/fonts/Aventa-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy-Semibold';
+    src: url('/fonts/Gilroy-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/fonts/Gilroy-Regular.ttf') format('truetype');
+}
+
+
+.service_wrapper{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    place-items: flex-end;
+}
+.c_image {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 32vh;
+    background-color: #000;
+    color:white;
+    padding: 5%;
+    border-radius: 9px;
+}
+.c_image h1{
+    font-family: 'Aventa-Extrabold';
+    font-size: 3.438rem;
+}
+.c_p1{
+    font-family: 'Gilroy-Semibold';
+    font-size: 1.125rem;
+}
+.c_wrapper{
+    display: flex;
+    height: 140vh;
+    width: 100%;
+    margin-top: 60px;
+    gap: 60px;
+}
+.s4_img1{
+    position: absolute;
+    top: 0;
+    right:0;
+}
+.s4_img{
+    position: absolute;
+    top: 0;
+    right:0;
+    height: 95%;
+}
+.c_p{
+    font-family: 'Gilroy';
+    font-size: 13px;
+}
+@media screen and (max-width:1200px){
+    .c_p1{
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width:900px){
+    .s4_img1{
+        position: absolute;
+        top: 0;
+        right:0;
+        height: 55%;
+    }
+    .s4_img{
+        position: absolute;
+        top: 0;
+        right:0;
+        height: 75%;
+    }
+    .c_p1 br{
+        display: none;
+    }
+}
+@media screen and (max-width:700px){
+    .c_image h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .s4_img1{
+        position: absolute;
+        top: 0;
+        right:0;
+        height: 35%;
+    }
+    .s4_img{
+        position: absolute;
+        top: 0;
+        right:0;
+        height: 45%;
+    }
+    .c_p , .c_p1{
+        text-align: center;
+    }
+    
+}

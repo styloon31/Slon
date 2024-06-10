@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@font-face {
+    font-family: 'Aventa-Bold';
+    src: url('/fonts/Aventa-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Aventa-Light';
+    src: url('/fonts/Aventa-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Aventa-Regular';
+    src: url('/fonts/Aventa-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy-semibold';
+    src: url('/fonts/Gilroy-SemiBold.ttf') format('truetype');
+}
+
+.Service3{
+    width: 100%;
+    height: 185vh;
+    color: #fff;
+}
+.Service3_wrapper{
+    width: 100%;
+    height: 175vh;
+    background-color: #0E2B38;
+    border-radius: 12px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sm_h p{
+    font-family: "Roboto Mono", monospace;
+    font-style: normal;
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: center;
+}
+.lg_h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lg_h h1{
+    font-family: 'Aventa-Bold';
+    font-size: 3.5rem;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sm_p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sm_p p{
+    font-family: 'Aventa-Light';
+    font-size: 1.5rem;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main_box_wrapper{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.box_wrapper{
+    width: 33.333%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    background-color: #CCCDD1;
+    border-radius: 15px;
+}
+.box_content{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 14px;
+}
+.b_p{
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+}
+.b_p1{
+    font-family: 'Gilroy-semibold';
+    font-size: 1.25rem;
+    border: 1px white solid;
+    padding: 0.5px 13.5px;
+}
+.b_p2{
+    font-family: "Roboto Mono", monospace;
+    font-style: normal;
+    display: flex;
+    place-items: center;
+    gap: 10px;
+    font-size: 1rem;
+}
+.p0{
+    font-family: 'Aventa-Regular';
+    font-size: 0.9rem;
+}
+.box_content h1{
+    font-family: 'Gilroy-semibold';
+    font-size: 2.1rem;
+}
+@media screen and (max-width:1100px){
+    .lg_h h1{
+        
+        font-size: 3rem;
+    }
+    .b_p1{
+        font-size: 1rem;
+    }
+    .b_p2{
+        font-size: 0.8rem;
+    }
+    .main_box_wrapper{
+        width: 100%;
+        height: 135vh;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .box_wrapper{
+        width: 100%;
+        height: 33.333%;
+        display: flex;
+        flex-direction: column;
+    }
+    .Service3_wrapper{
+        height: 300vh;
+        padding-bottom: 3%;
+    }
+    .Service3{
+        height: 305vh;
+    }
+}
+@media screen and (max-width:900px){
+    .lg_h h1{
+        font-size: 2rem;
+    }
+    .sm_p p{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:600px){
+    .lg_h h1{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    .sm_p p{
+        font-size: 0.625rem;
+        width: 100%;
+    }
+}

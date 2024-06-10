@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Aventa-black';
+    src: url('/fonts/Aventa-Black.woff') format('woff');
+}
+@font-face {
+    font-family: 'Aventa-Bold';
+    src: url('/fonts/Aventa-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Aventa-Medium';
+    src: url('/fonts/Aventa-Medium.ttf') format('truetype');
+}
+
+
+.Asection2{
+    width: 100%;
+    height: 90vh;
+    background-color: #ECF1EF;
+    margin-top: 90px;
+    padding-bottom: 2%;
+}
+.Asection2 h1{
+    display: flex;
+    font-family: 'Aventa-black';
+    justify-content: center;
+    font-size: 5.5rem;
+}
+.wrapper{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    margin-top: 40px;
+    gap: 40px;
+}
+.wrapper1{
+    width: 50%;
+    height: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 47%;
+    background-color: white;
+    border-radius: 12px;
+    padding: 7%;
+    justify-content: space-between;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    height: 47%;
+    background-color: #0E2B38;
+    border-radius: 12px;
+    padding: 7%;
+    justify-content: space-between;
+}
+.box3{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: #1C1C1C;
+    border-radius: 12px;
+}
+.box1 h2{
+    font-family: 'Aventa-Bold';
+    font-size: 2.2rem;
+}
+.box1 p{
+    font-family: 'Aventa-Medium';
+    font-size: 1rem;
+}
+.box2 h2{
+    font-family: 'Aventa-Bold';
+    font-size: 2.2rem;
+}
+.box2 p{
+    font-family: 'Aventa-Medium';
+    font-size: 1rem;
+}
+@media screen and (max-width:1024px){
+    .wrapper{
+        flex-direction: column;
+    }
+    .wrapper1{
+        width: 100%;
+        height: 100%;
+    }
+    .box3{
+        width: 100%;
+    }
+    .Asection2{
+        height: 110vh;
+    }
+    .Asection2 h1{
+        font-size: 4.5rem;
+    }
+    .box1{
+        padding: 4%;
+    }
+    .box2{
+        padding: 4%;
+    }
+}
+@media screen and (max-width:900px){
+    .Asection2 h1{
+        font-size: 3.5rem;
+    }
+}
+@media screen and (max-width:600px){
+    .Asection2 h1{
+        font-size: 2rem;
+    }
+    .box1 h2{
+        font-family: 'Aventa-Bold';
+        font-size: 1.4rem;
+    }
+    .box1 p{
+        font-family: 'Aventa-Medium';
+        font-size: 0.7rem;
+    }
+    .box2 h2{
+        font-family: 'Aventa-Bold';
+        font-size: 1.4rem;
+    }
+    .box2 p{
+        font-family: 'Aventa-Medium';
+        font-size: 0.7rem;
+    }
+    .svg{
+        width: 32px;
+        height: 38px;
+    }
+}

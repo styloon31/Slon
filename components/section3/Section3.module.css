@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@font-face {
+    font-family: 'Aventa';
+    src: url('/fonts/Aventa-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/fonts/Gilroy-SemiBold.ttf') format('truetype');
+}
+
+.sec3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 190vh;
+}
+
+.sec3_h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-family: 'Aventa';
+    height:fit-content ;
+}
+.sec3_block1{
+    width: 100%;
+    display: flex;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.box1{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #CCCDD1;
+    border-radius: 27px;
+}
+
+.box1_wrapper{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+}
+.box2{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    background-color: #CCCDD1;
+    border-radius: 27px;
+}
+
+.box2_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60vh;
+    gap: 30px;
+}
+.box2_content{
+    padding-left: 40px;
+}
+.box2_content2{
+    padding-left: 40px;
+}
+.box2_content2 h1{
+    font-family: 'Gilroy';
+    font-size: 2.188rem;
+    font-weight: 600;
+}
+.box2_content1{
+    padding-left: 40px;
+}
+.box2_content1 h1{
+    font-family: 'Gilroy';
+    font-size: 2.188rem;
+    font-weight: 600;
+}
+.box2_content h1{
+    font-family: 'Gilroy';
+    font-size: 2.188rem;
+    font-weight: 600;
+}
+.p1{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: 1.125rem;
+}
+.p_wrap{
+    display: flex;
+    font-family: 'Gilroy';
+    font-weight: 600;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 1.113rem;
+}
+.p2{
+    background-color: #004F9270;
+    color: #00158C;
+    padding: 0.5px 13.5px;
+    border-radius: 9px;
+    font-weight: 600;
+}
+.sec3_block2{
+    width: 100%;
+    display: flex;
+    gap: 32px;
+    margin-top: 18px;
+}
+.box3_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    gap: 30px;
+}
+.box3{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    background-color: #CCCDD1;
+    border-radius: 27px;
+}
+.box4_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    gap: 30px;
+}
+.box4{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #CCCDD1;
+    border-radius: 27px;
+}
+.box2_content1{
+    display: none;
+}
+
+/* ============= media queries =============== */
+@media screen and (max-width:1600px){
+    .box1_wrapper{
+        height: 65vh;
+    }
+    .box2_wrapper{
+        height: 65vh;
+    }
+    .box3_wrapper{
+        height: 65vh;
+    }
+    .box4_wrapper{
+        height: 65vh;
+    }
+    .sec3{
+        height: 150vh;
+    }
+}
+@media screen and (max-width:1024px) {
+    .sec3_block1{
+        flex-direction: column;
+    }
+    .box1_wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .box2_content1{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec3_block2{
+        flex-direction: column;
+    }
+    .box2_content2{
+        display: none;
+    }
+    .box1_wrapper{
+        height: 50vh;
+    }
+    .box2_wrapper{
+        height: 50vh;
+    }
+    .box2{
+        height: 100%;
+    }
+    .box3_wrapper{
+        height: 50vh;
+    }.box4_wrapper{
+        height: 50vh;
+    }
+    .sec3{
+        height: 220vh;
+    }
+}
+@media screen and (max-width:600px){
+    .box2_content1 h1{
+        font-family: 'Gilroy';
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .box2_content1{
+        padding-left: 0;
+    }
+    .p1{
+        font-size: 10px;
+    }
+    .p2{
+        font-size: 14px;
+        border-radius: 5px;
+        padding: 5px 15px;
+        font-weight: 600;
+    }
+    .box2_content h1{
+        font-family: 'Gilroy';
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .box2_content{
+        padding-left: 0;
+    }
+    .sec3{
+        height: 230vh;
+    }   
+    .box1_wrapper{
+        gap: 10px;
+    }
+    .box2_wrapper{
+        gap: 10px;
+    }
+    .box3_wrapper{
+        gap: 10px;
+    }
+    .box4_wrapper{
+        gap: 10px;
+    }
+}

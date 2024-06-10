@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@font-face {
+    font-family: 'Gilroy-semibold';
+    src: url('/fonts/Gilroy-SemiBold.ttf') format('truetype');
+}
+
+
+.Section5{
+    display: flex;
+    width: 100%;
+    height: 30vh;
+}
+.s5_box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+    background-image: linear-gradient(to left, #00405C , #ECF1EF);
+    border-radius: 19px;
+    padding-left: 5%;
+    padding-right: 5%; 
+    place-items: center;
+}
+.s5_btn{
+    height: fit-content;
+    font-size: 1.875rem;
+    padding: 20px 40px;
+    font-family: "Inter", sans-serif;
+    background-color: #1C1C1C;
+    border: none;
+    border-radius: 18px;
+    color: #E7EAEB;
+    cursor: pointer;
+}
+.s5_box h2{
+    font-family: 'Gilroy-semibold';
+    font-size: 2.5rem;
+    width: 80%;
+}
+
+/* ===========media queries================ */
+@media screen and (max-width: 1600px){
+    .s5_btn{
+        font-size: 1.4rem;
+    }
+    .s5_box h2{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 1300px){
+    .s5_btn{
+        font-size: 1rem;
+        padding: 16px 36px;
+    }
+    .s5_box h2{
+        font-size: 1.6rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .s5_box{
+        flex-direction: column;
+        justify-content: center;
+        gap: 18px;
+    }
+    .s5_box h2{
+        font-size: 1rem;
+    }
+}

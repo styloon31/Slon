@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Aventa-black';
+    src: url('/fonts/Aventa-Black.woff') format('woff');
+}
+@font-face {
+    font-family: 'Aventa-SemiBold';
+    src: url('/fonts/Aventa-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Aventa-Bold';
+    src: url('/fonts/Aventa-Bold.ttf') format('truetype');
+}
+
+.Asection4{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    flex-direction: column;
+}
+.h{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.h h1{
+    font-family: 'Aventa-black';
+    font-size: 4.5rem;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    margin-top: 1.9rem;
+    gap: 1.7rem;
+}
+.wrap{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 3rem;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    height: 100%;
+    background-color: #0E2B38;
+    border-radius: 20px;
+    padding: 4% 8%;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 100%;
+    background-color: #0E2B38;
+    border-radius: 20px;
+    padding: 4%;
+}
+.box1 p{
+    font-family: 'Aventa-SemiBold';
+    color: #FEFDFE;
+    font-size: 1.2rem;
+}
+.box1 h3{
+    font-family: 'Aventa-Bold';
+    color: #FEFDFE;
+    font-size: 1.375rem;
+}
+.box2 p{
+    font-family: 'Aventa-SemiBold';
+    color: #FEFDFE;
+    font-size: 1.2rem;
+}
+.box2 h3{
+    font-family: 'Aventa-Bold';
+    color: #FEFDFE;
+    font-size: 1.375rem;
+}
+@media screen and (max-width:1300px){
+    .h h1{
+        font-family: 'Aventa-black';
+        font-size: 4rem;
+    }
+    .box1 p{
+        font-family: 'Aventa-SemiBold';
+        color: #FEFDFE;
+        font-size: 1rem;
+    }
+    .box1 h3{
+        font-family: 'Aventa-Bold';
+        color: #FEFDFE;
+        font-size: 1.1rem;
+    }
+    .box2 p{
+        font-family: 'Aventa-SemiBold';
+        color: #FEFDFE;
+        font-size: 1rem;
+    }
+    .box2 h3{
+        font-family: 'Aventa-Bold';
+        color: #FEFDFE;
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width:900px){
+    .h h1{
+        font-family: 'Aventa-black';
+        font-size: 2.5rem;
+    }
+    .Asection4{
+        height: 120vh;
+    }
+    .wrap{
+        flex-direction: column;
+        height: 50%;
+        gap: 2.5rem;
+    }
+    .box1{
+        width: 100%;
+        padding: 4%;
+    }
+    .box2{
+        width: 100%;
+    }
+    .wrapper{
+        height: 100%;
+        gap: 2.5rem;
+    }
+}
+@media screen and (max-width:600px){
+    .svg{
+        width: 90px;
+    }
+    .box1{
+        padding: 5%;
+    }
+    .box2{
+        padding: 5%;
+    }
+    .box1 p{
+        font-family: 'Aventa-SemiBold';
+        color: #FEFDFE;
+        font-size: 0.9rem;
+    }
+    .box1 h3{
+        font-family: 'Aventa-Bold';
+        color: #FEFDFE;
+        font-size: 1rem;
+    }
+    .box2 p{
+        font-family: 'Aventa-SemiBold';
+        color: #FEFDFE;
+        font-size: 0.9rem;
+    }
+    .box2 h3{
+        font-family: 'Aventa-Bold';
+        color: #FEFDFE;
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@font-face {
+    font-family: 'Aventa-Medium';
+    src: url('/fonts/Aventa-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy-semibold';
+    src: url('/fonts/Gilroy-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Frontspring';
+    src: url('/fonts/Fontspring-DEMO-proximanova-regular.ttf') format('truetype');
+}
+
+
+.Service4{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #ECF1EF;
+    place-items: center;
+}
+.s4_wrapper{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    place-items: center;
+    gap: 34px;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 14px;
+    padding: 3%;
+}
+.box2{
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 14px;
+}
+.box1 h1{
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-size: 3rem;
+}
+.box1 span{
+    color: #1B6785;
+}
+.box1_p{
+    font-family: 'Aventa-Medium';
+    font-size: 1rem;
+}
+._2boxes{
+    display: flex;
+    width: 100%;
+    gap: 32px;
+}
+._2boxes1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #1C1C1C;
+    color: #DBEDE9;
+    gap: 30px;
+    border-radius: 8px;
+    padding: 4%;
+}
+._2boxes1 h2{
+    font-family: 'Gilroy-semibold';
+    font-size: 1.7rem;
+}
+._2boxes1 p{
+    font-family: 'Frontspring';
+    font-size: 1rem;
+}
+@media screen and (max-width:1600px){
+    .box1 h1{
+        font-family: "DM Sans", sans-serif;
+        font-style: normal;
+        font-size: 2.5rem;
+    }
+    .box1{
+        gap: 0;
+        justify-content: space-between;
+    }
+    ._2boxes1 h2{
+        font-family: 'Gilroy-semibold';
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width:1350px){
+    ._2boxes{
+        gap: 20px;
+    }
+    ._2boxes1 h2{
+        font-size: 1rem;
+    }
+    ._2boxes1 p{
+        font-family: 'Frontspring';
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width:1100px){
+    .box1 h1{
+        font-family: "DM Sans", sans-serif;
+        font-style: normal;
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:1000px){
+    .s4_wrapper{
+        flex-direction: column;
+        height: 90%;
+    }
+    .box1{
+        width: 100%;
+        height: 50%;
+    }
+    .box2{
+        width: 100%;
+        height: 50%;
+    }
+    .box1 br{
+        display: none;
+    }
+}

@@ -1,0 +1,116 @@
+
+/* =============Fonts============== */
+@font-face {
+    font-family: 'Aventa';
+    src: url('/fonts/Aventa-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Aventa-black';
+    src: url('/fonts/Aventa-Black.woff') format('woff');
+}
+@font-face {
+    font-family: 'Aventa-Light';
+    src: url('/fonts/Aventa-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/fonts/Gilroy-SemiBold.ttf') format('truetype');
+}
+
+
+.section1Cont{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+.section1wrap{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 28px;
+    padding-bottom: 100px;
+}
+.section1H1{
+    width: 100%;
+    font-family: 'Aventa';
+    font-size: 3.75rem;
+}
+.span1{
+    font-family: 'Aventa-black';
+    color: #F84445;
+}
+.section1p{
+    font-family: 'Aventa-Light';
+    font-size: 1.563rem;
+}
+.section1btn{
+    width:fit-content;
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    font-family: 'Gilroy';
+    font-size: 1.563rem;
+    padding: 23.5px 71.5px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.d_btn{
+    display: flex;
+    justify-content: flex-end;
+    width: fit-content;
+    background-color: black;
+    border: 3px solid #FFDF39;
+    border-radius: 100%;
+    padding: 20px;
+    place-items: center;
+    cursor: pointer;
+}
+.btn_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.svgdown{
+    width: 40px;
+    height: 40px;
+    color: #FFDF39;
+}
+
+/* ========= media queries ============= */
+@media screen and (max-width: 1300px) {
+    .section1H1{
+        font-size: 3rem;
+    }
+    .section1p{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 1000px){
+    .section1H1{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .section1H1{
+        font-size: 1rem;
+    }
+    .section1p{
+        font-size: 0.625rem;
+    }
+    .section1btn{
+        font-size: 0.5rem;
+        padding: 8px 17.5px;
+    }
+    .d_btn{
+        padding: 10px;
+    }
+    .svgdown{
+        width: 10px;
+        height: 10px;
+    }
+    .section1wrap{
+        padding-bottom: 30px
+    }
+}
